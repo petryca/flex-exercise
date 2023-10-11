@@ -1,3 +1,17 @@
+/* 
+Use the selectors below to create the following:
+
+- images are centered in the window
+- the window has 60px padding all the way around
+- images are arranged horizontally in window width 600px and above
+- images are arranged vertically in window width below 600px
+- images have 20px gap in between
+- in horizontal arrangement the maximum width is 1000px
+- in vertical arrangement the maximum width is 100px
+
+Reference: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -20,7 +34,6 @@ section {
 #flex {
     display: flex;
     max-width: 1000px;
-    margin: auto;
     gap: 20px;
 }
 
